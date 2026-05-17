@@ -1,0 +1,26 @@
+backend/
+  src/
+    Api/
+      Controllers/
+        AuthController.cs
+        ChannelsController.cs
+        MessagesController.cs
+      Hubs/
+        ChatHub.cs
+        PresenceHub.cs
+      Models/
+        User.cs
+        Channel.cs
+        Message.cs
+      DTOs/
+        AuthDto.cs
+        MessageDto.cs
+      Services/
+        AuthService.cs
+        ChannelService.cs
+        MessageService.cs
+      Data/
+        AppDbContext.cs
+        Migrations/
+    Program.cs
+    appsettings.json
